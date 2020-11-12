@@ -5,7 +5,7 @@
       <div class="mu-day-button-bg"></div>
       <div class="mu-day-button-content">
         <span class="mu-day-button-text">{{date.getDate()}}日</span>
-        <span class="day-dot" v-if="date.getDate() % 3 === 0"></span>
+        <span v-if="date.getDate() % 3 === 0" class="day-dot"></span>
       </div>
     </template>
   </mu-date-input>
